@@ -116,12 +116,12 @@ class RecipeView extends View {
         </p>
         <a
           class="btn--small recipe__btn"
-          href="http://thepioneerwoman.com/cooking/pasta-with-tomato-cream-sauce/"
+          href="${this._data.sourceUrl}"
           target="_blank"
         >
           <span>Directions</span>
           <svg class="search__icon">
-            <use href="${this._data.sourceUrl}"></use>
+            <use href="${icons}#icon-arrow-right"></use>
           </svg>
         </a>
       </div>
